@@ -23,9 +23,6 @@ jobs:
           - os: ubuntu-latest
             artifact: command-review-linux-x86_64.tar.gz
             binary: command-review
-          - os: macos-13
-            artifact: command-review-macos-x86_64.tar.gz
-            binary: command-review
           - os: windows-latest
             artifact: command-review-windows-x86_64.tar.gz
             binary: command-review.exe
